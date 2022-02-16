@@ -1,0 +1,35 @@
+body{
+    font-family: 'Outfit', sans-serif;
+    text-align:center;
+    background: rgb(255,38,0);
+background: linear-gradient(90deg, rgba(255,38,0,1) 0%, rgba(165,237,14,1) 50%, rgba(23,221,182,1) 100%);
+}
+
+h3{
+    font-size: 25px !important;
+    }
+    
+    .btn-warning:hover{
+    background-color: #ff5100;
+    }
+    
+    canvas{
+    margin-top: 100px;
+        animation-name: canvas-color-changer;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+    }
+    
+    @keyframes canvas-color-changer{
+        from{box-shadow: 1px 1px 38px #0084ff};
+    to{box-shadow: 1px 1px 1px #1100ff};
+    }
+
+    #takeSnapshotBTN{
+        width: 200px;
+        font-size: 18px;
+    }
+    
+    #creator_title{
+        font-size: 17px;
+    }
